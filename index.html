@@ -1,0 +1,27 @@
+<!-- index.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solana Note Submission</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Submit Note</h1>
+    <form id="note-form">
+        <label for="account-key">Account Key:</label>
+        <input type="text" id="account-key" required>
+        <br>
+        <label for="account-name">Account Name:</label>
+        <input type="text" id="account-name" required>
+        <br>
+        <label for="note">Note:</label>
+        <textarea id="note" required></textarea>
+        <br>
+        <button type="button" id="submit-button">Submit</button>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
